@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:#F5F6FA;font-family:system-ui,sans-serif}
+.bar{width:0;animation:fill 5s linear forwards}
+@keyframes fill{to{width:100%}}
